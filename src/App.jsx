@@ -6,7 +6,7 @@ import {
 // --- Static Data Definitions ---
 
 const user = {
-  name: "Alex Vesper",
+  name: "Shaheer Sha T",
   title: "Shopify & Full-Stack Python Developer",
   tagline: "Building scalable e-commerce solutions and robust backend systems.",
   bio: "I am a dedicated developer with 7+ years of experience specializing in custom Shopify theme development, API integrations, and building resilient full-stack applications using Python/Django/Flask. My passion lies in optimizing performance and creating seamless user experiences that drive business growth.",
@@ -20,11 +20,11 @@ const user = {
   ],
   photoUrl: "https://placehold.co/400x400/10b981/ffffff?text=Professional+Photo", // Placeholder
   logoUrl: "https://placehold.co/100x100/1f2937/ffffff?text=AV", // Placeholder for Logo/Monogram
-  email: "alex.vesper@devmail.com",
+  email: "shaheershat@gmail.com",
   social: {
-    linkedin: "https://linkedin.com/in/alexvesper",
-    github: "https://github.com/alexvesperdev",
-    twitter: "https://twitter.com/alexvesperdev",
+    linkedin: "https://linkedin.com/in/shaheershat",
+    github: "https://github.com/shaheershat",
+    twitter: "https://twitter.com/shaheershat",
   }
 };
 
@@ -205,7 +205,7 @@ const HeroSection = ({ scrollTo }) => {
       <div ref={ref} className={`container mx-auto px-4 sm:px-6 lg:px-8 z-10 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-lg font-semibold text-indigo-600 mb-4 animate-pulse">
-            Hello, I'm Alex Vesper
+            Hello, I'm Shaheer Sha T
           </p>
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight text-gray-900 leading-tight mb-6">
             {user.title}
@@ -492,10 +492,7 @@ const Footer = ({ scrollTo }) => (
       </div>
       <p className="text-gray-500 text-sm">
         &copy; {new Date().getFullYear()} {user.name}. All rights reserved.
-      </p>
-      <p className="text-xs text-gray-400 mt-2">
-        Built with React and Tailwind CSS for performance and scalability.
-      </p>
+      </p
     </div>
   </footer>
 );
