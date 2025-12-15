@@ -492,7 +492,7 @@ const Footer = ({ scrollTo }) => (
       </div>
       <p className="text-gray-500 text-sm">
         &copy; {new Date().getFullYear()} {user.name}. All rights reserved.
-      </p
+      </p>
     </div>
   </footer>
 );
